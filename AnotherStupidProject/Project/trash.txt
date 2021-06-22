@@ -1,0 +1,4 @@
+/*if (worldMap[int(playerPosition.x + playerForward.x * moveSpeed)][int(playerPosition.y)] == false)
+                                playerPosition.x += playerForward.x * moveSpeed;
+                            if (worldMap[int(playerPosition.x)][int((playerPosition.y + playerForward.y * moveSpeed))] == false)
+                                playerPosition.y += playerForward.y * moveSpeed;*/

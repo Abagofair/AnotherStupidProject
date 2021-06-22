@@ -1,0 +1,19 @@
+InputManager:
+	unordered set with KEYS which is PRESSED/RELEASED
+		while hasPendingEvents
+			switch event.type
+				case SDL_UP
+					InputManager.HandleReleased(event)
+				case SDL_DOWN
+					InputManager.HandlePressed(event)
+	
+   input map:
+		KEY -> ACTION
+		
+		HASBEENPRESSED -> PERFORM ACTION
+
+
+
+----------------------------------
+
+RayCastRenderer
